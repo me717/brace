@@ -8,10 +8,6 @@
     "update": "(cd build && node ./update && node ./update-ts)",
     "test": "browserify test/*.js > test/bundle.js --debug && opener test/index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "github:me717/brace"
-  },
   "homepage": "https://github.com/me717/brace",
   "dependencies": {
     "w3c-blob": "0.0.1"
