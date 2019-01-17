@@ -3,11 +3,15 @@
   "version": "1.10.1",
   "description": "browserify compatible version of the ace editor.",
   "main": "index.js",
-  "typings": "index.d.ts",
   "scripts": {
     "update": "(cd build && node ./update && node ./update-ts)",
     "test": "browserify test/*.js > test/bundle.js --debug && opener test/index.html"
   },
+  "repository": {
+    "type": "git",
+    "url": "github:me717/brace"
+  },
+  "homepage": "https://github.com/me717/brace",
   "dependencies": {
     "w3c-blob": "0.0.1"
   },
@@ -18,6 +22,20 @@
     "shelljs": "~0.2.6",
     "tape": "~4.0.0",
     "uglify-js": "~2.2.5"
+  },
+  "keywords": [
+    "ace",
+    "editor",
+    "browser",
+    "package",
+    "bundle",
+    "inline",
+    "browserify"
+  ],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
   },
   "license": "MIT",
   "engine": {
