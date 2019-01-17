@@ -2,6 +2,7 @@
   "name": "example",
   "description": "example showing off how to use brace with browserify to include an ace editor in a page",
   "main": "example.js",
+  "version": "0.10.0",
   "dependencies": {
     "browserify": "~2.13.2",
     "brace": "~0.1.1"
