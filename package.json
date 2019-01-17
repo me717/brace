@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/thlorenz/brace.git"
+    "url": "github:me717/brace"
   },
-  "homepage": "https://github.com/thlorenz/brace",
+  "homepage": "https://github.com/me717/brace",
   "dependencies": {
     "w3c-blob": "0.0.1"
   },
